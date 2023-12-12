@@ -14,7 +14,7 @@ public class Main {
         int[] arr = new int[1000];
         
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = r.nextInt(MINVAL, MAXVAL);
+            arr[i] = r.nextInt(MINVAL, MAXVAL); 
         }
         int[]minMaxVal = findMinMax(arr);
         System.err.println(Arrays.toString(arr));
